@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(206, 202, 202);
+}
+.container-box{
+    display: flex;
+    justify-content: space-around;
+}
+.tab-btn{
+    outline: none;
+    padding: 5px 38px;
+    margin-left: -10px;
+    border: none;
+    background-color: rgb(241, 154, 154);
+}
+.content{
+    background-color: #fff;
+    padding: 10px;
+}
+.singleEle{
+    display: none;
+}
+.tab-btn.active{
+    background-color: #fff;
+}
+.singleEle.active{
+    display: block;
+}
